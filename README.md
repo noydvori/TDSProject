@@ -15,7 +15,6 @@ The goal is to provide actionable insights and build a reliable tool for predict
 2. [Key Features and Findings](#key-features-and-findings)
 3. [Implementation Details](#implementation-details)
 4. [Results](#results)
-5. [How to Run the Project](#how-to-run-the-project)
 6. [Potential Applications](#potential-applications)
 
 ---
@@ -70,22 +69,6 @@ Key challenges include:
 - **Baseline Model**: Achieved an R² score of ~0.5 with limited generalization.
 - **Improved Model**: After applying SMOTE and hyperparameter tuning, the R² score improved to ~0.8, with reduced error metrics.
 - **Feature Importance**: The new features contributed significantly to the improved performance.
-
----
-
-## **How to Run the Project**
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebooks:
-   - Part 1: `part1.ipynb`
-   - Part 2: `part2.ipynb`
-4. View the results in the output directory or visualizations in the notebooks.
 
 ---
 
